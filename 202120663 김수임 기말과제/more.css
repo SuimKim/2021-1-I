@@ -1,0 +1,195 @@
+@font-face {
+    font-family: '210 Namoogothic L';
+    src: url('TTNamoogothicL.eot');
+    src: url('TTNamoogothicL.eot?#iefix') format('embedded-opentype'),
+        url('TTNamoogothicL.woff') format('woff'),
+        url('TTNamoogothicL.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: '210 Namoogothic R';
+    src: url('TTNamoogothicR.eot');
+    src: url('TTNamoogothicR.eot?#iefix') format('embedded-opentype'),
+        url('TTNamoogothicR.woff') format('woff'),
+        url('TTNamoogothicR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '210 Namoogothic B';
+    src: url('TTNamoogothicB.eot');
+    src: url('TTNamoogothicB.eot?#iefix') format('embedded-opentype'),
+        url('TTNamoogothicB.woff') format('woff'),
+        url('TTNamoogothicB.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/*------------------------------------*/
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: '210 Namoogothic', sans-serif;
+}
+hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    background-color: lightgray;
+}
+.short{
+    border: none;
+    width: 50%;
+    height: 2px;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 17pt;
+    color: #454d9b;
+    margin-bottom: 50px;
+}
+/*------------------header영역-------------------*/
+header{
+    width: 95%;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.maintitle{
+    font-size: 20pt;
+    padding-left: 180px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav{    
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 180px;
+    padding: 30px 0 0 0;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul li a:hover{
+    color: #ff8ac4;
+}
+/*---------------------------------------------*/
+main{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+/*-----------------취미영역---------------------*/
+.ht{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: translate(-100px,-15px);
+}
+.likee{
+    font-weight: bold;
+}
+.day6,.nct127{
+    display: inline-block;
+    border: 2px solid lightsteelblue;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 50px 0px 50px 0;
+}
+#like img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.day6 div a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 15pt;
+    background-color: rgb(59, 144, 255);
+    padding: 5px;
+}
+.day6 div a:hover{
+    color: rgb(59, 144, 255);
+    background-color: white;
+}
+.nct127 div a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    background-color: rgb(179, 255, 58);
+    padding: 5px;
+}
+.nct127 div a:hover{
+    color: rgb(179, 255, 58);
+    background-color: white;
+}
+
+/*--------------포트폴리오----------------------*/
+#portfolio,#like{
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+.potf img{
+    border: 2px solid lightsteelblue;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.potf{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    font-size: 12pt;
+    font-weight: bold;
+
+}
+.potf div{
+    margin: 50px;
+}
+/*--------------------------------------------*/
+.and{
+    margin: 300px 0 300px 0;
+}
+/*--------------------------------------------*/
+footer{
+    height: 5%;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 7pt;
+    font-weight: bold;
+    color: gray;
+    padding: 20px 0 10px 0;
+}
+
+footer img{
+    width: 15px;
+    height: 15px;
+    transform: translateY(5px);
+}
